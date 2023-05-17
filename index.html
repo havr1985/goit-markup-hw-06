@@ -296,13 +296,55 @@
       </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-form-title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-form-field"><span class="modal-form-desc">Name</span>
+            <span class="modal-form-box"> 
+           <input type="text" name="user_name" class="modal-form-input" required>
+           <svg class="modal-input-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-name"></use>
+           </svg>
+           </span>
+          </label>
+          <label class="modal-form-field"><span class="modal-form-desc">Phone</span>
+            <span class="modal-form-box"> 
+            <input type="tel" name="user_phone" class="modal-form-input" required>
+            <svg class="modal-input-icon" width="16" height="16">
+             <use href="./images/icons.svg#icon-phone"></use>
+           </svg>
+           </span>
+          </label>
+          <label class="modal-form-field"><span class="modal-form-desc">Email</span>
+            <span class="modal-form-box"> 
+            <input type="email" name="user_email" class="modal-form-input" required>
+             <svg class="modal-input-icon" width="16" height="16">
+             <use href="./images/icons.svg#icon-email"></use>
+           </svg>
+            </span>
+          </label>
+          <label class="modal-form-field"><span class="modal-form-desc">Comment</span>
+          <textarea name="user_message" class="modal-form-message" placeholder="Text input"></textarea>
+          </label>
+          <input id="user_policy" type="checkbox" class="modal-form-check visually-hidden">
+          <label for="user_policy" class="modal-form-check-desc">
+            <span class="fake-checkbox">
+              <svg class="fake-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-apply"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the <a href="">Privacy Policy</a> 
+          </label>
+          <button type="submit" class="modal-form-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
