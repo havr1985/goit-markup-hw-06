@@ -415,6 +415,55 @@ body{
 .social-bottom-link .icon{
     margin: 8px;
 }
+.section-subscribe{
+    display: flex;
+    margin-left: 80px;
+}
+.subscribe-form-element{
+    display: flex;
+}
+.subscribe-form-input{
+    min-width: 264px;
+    height: 40px;
+    border:1px solid var(--primary-color-white);
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-right: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: var(--primary-color-white);
+    background-color: transparent;
+}
+.subscribe-form-input::placeholder{
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--primary-color-white);
+}
+.subscribe-form-input:focus{
+    outline: none;
+}
+.subscribe-form-btn{
+    display: flex;
+    border: none;
+    min-width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+    padding-left: 24px;
+    background-color: var(--primary-brend-color);
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-color-white);
+}
+.subscribe-btn-icon{
+    margin-left: 16px;
+    fill: var(--primary-color-white);
+
+}
          /*Portfolio page*/
 
 .gallery{
@@ -693,7 +742,7 @@ position: absolute;
 }
 
 .modal-form-button{
-display: block;
+    display: block;
     border: none;
     min-width: 169px;
     height: 56px;
