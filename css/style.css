@@ -731,10 +731,10 @@ body{
 .modal-form-check:checked + .modal-form-check-desc .fake-checkbox{
     border: none;
     background-color: var(--pressed-state-color);
-    border: 1px solid var(--pressed-state-color);
-    fill: var(--light-mode-color);
+    border-color: 1px solid var(--pressed-state-color);
+    fill: var(--primary-color-white);
 }
-.modal-form-check:focus +.modal-form-check-desc .fake-checkbox-icon{
+.modal-form-check:focus + .modal-form-check-desc .fake-checkbox-icon{
     fill: var(--primary-brend-color);
 }
 
