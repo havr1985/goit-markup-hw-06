@@ -737,6 +737,10 @@ body{
     border: 1px solid var(--pressed-state-color);
     fill: var(--light-mode-color);
 }
+.modal-form-check:focus +.modal-form-check-desc .fake-checkbox-icon{
+    fill: var(--primary-brend-color);
+}
+
 .modal-form-check-desc{
     font-size: 12px;
     line-height: 1.17;
