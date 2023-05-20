@@ -726,9 +726,6 @@ body{
     border: 1px solid var(--header-text-color);
     border-radius: 2px;
     fill: transparent;
-    transition: background-color var(--transition),
-    border var(--transition),
-    fill var(--transition);
 }
 
 .modal-form-check:checked + .modal-form-check-desc .fake-checkbox{
